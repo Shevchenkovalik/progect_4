@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #8FD192;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px;
+}
+
+.text{
+    width: 318px;
+    height: 243px;
+    text-align: center;
+
+
+
+
+
+}
+
+body{
+    background: #F1F8EE;
+}
+
+.home{
+    color: #0E6F3B;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        width: 100%;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    li img{
+        display: none;
+    }
+
+    .home{
+        background: #0E6F3B;
+        color: white;
+        text-align: center;
+        width: 100%;
+    }
+
+    .Aboutus{
+        color: black;
+        background: #8FD192;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .Activities{
+        color: black;
+        background: #8FD192;
+        width: 100%;
+        text-align: center;
+    }
+
+    .SocialMedia{
+        color: black;
+        background: #8FD192;
+        width: 100%;
+        text-align: center;
+
+    }
+    
+    .Contactus{
+        color: black;
+        background: #8FD192;
+        width: 100%;
+        text-align: center;
+    }
+    
+}
